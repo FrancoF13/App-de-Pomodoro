@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient(circle, #18b5ba, #0094bb, #0070b8, #0048a7, #191581);
+}
+
+#app {
+    background-image: radial-gradient(circle, #d8e0e7, #c3ced7, #aebdc6, #9aacb6, #859ba6);
+    width: 500px;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: solid 0 #ccc;
+    padding: 20px;
+}
+
+#time {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#time #value {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+}
+
+button,
+input[type="submit"] {
+    border: none;
+    background-color: #191581;
+    color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done {
+    display: inline-block;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
